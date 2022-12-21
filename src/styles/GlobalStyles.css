@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primaryPurple: #2c1c4b;
+  --black-1: #28262b;
+  --black-2: #585858;
+  --bg-1: #57578a;
+  --bg-2: #8084a3;
+  --bg-3: #cccdde;
+  --gray-1: #eee;
+  --gray-2: #dedfe1;
+  --black: rgb(255, 255, 255);
+  --white: rgb(255, 255, 255);
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Times new roman", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-1);
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
